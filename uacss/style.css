@@ -85,7 +85,7 @@ body {
  .bootstrap-select>.dropdown-toggle.bs-placeholder { /*.bootstrap-select>.dropdown-toggle.bs-placeholder styles the placeholder for the dropdown in the bootstrap-select plugin*/
     text-align: left;
     font-weight: 600;
-    font-size: 9.71574px;
+    font-size: 12px;
     color: #BDBDBD;
 }
 
@@ -97,14 +97,13 @@ body {
 .form-group {
     text-align: left;
     font-weight: 600;
-    font-size: 2.5254vw;
 }
 
 .btn-light { /*Account type dropdown*/
-border: 0.404823px solid #BDBDBD;
-border-radius: 0px;
-height: 37px;
-background-color: white;
+    border: 0.404823px solid #BDBDBD;
+    border-radius: 0px;
+    height: 37px;
+    background-color: white;
 }
 
 .btn-light:hover { /*Account type dropdown*/
@@ -115,7 +114,6 @@ background-color: white;
     background-color: #362F74;
     border-radius: 5px;
     height: 68px;
-    font-size: 2.899vw;
 }
 
 .form__search-input {
@@ -158,6 +156,10 @@ font-weight: normal;
         font-size: 32px;
         text-align: left;
     }
+    
+    .form-group {
+        font-size: 19px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -184,7 +186,7 @@ font-weight: normal;
     }
 
     .form-group {
-        font-size: 26px;
+        font-size: 21px;
     }
 
     .pay-btn {
@@ -198,6 +200,10 @@ font-weight: normal;
 @media (min-width: 1200px) {
     tml {
         font-size: 1rem;
+    }
+
+    .form-group {
+        font-size: 26px;
     }
 
    
