@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Upgrade Account</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="uacss/style.css">
+    <!--bootstrap-select jQuery plugin css-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+</head>
+
+<body>
+    <!--mobile nav start
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>-->
+    <!--mobile nav end-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--wider screen nav start-->
+            <div class="col-sm-2 d-none d-sm-block side-bar">
+
+            </div>
+            <!--wider screen nav end-->
+            <!--pricing information (right column) start-->
+            <div class="col-12 col-sm-10 pricing">
+                <form class="">
+                    <input class="form-control my-4 p-2 mx-auto d-block d-sm-none form__search-input" type="search"
+                        placeholder="Search payment history" aria-label="Search">
+                </form>
+                <h1 class="pricing-heading">Upgrade To Premium</h1>
+                <p class="pricing-heading__detail">Empower yourself with additional features when you upgrade</p>
+                <!--pricing plan start-->
+                <div class="card-deck mb-3 mt-5 text-center">
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-header standard-acc-header">
+                                <h2 class="my-0 font-weight-normal">Standard Account</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="row mt-3 card-body__info">
+                                    <div class="col-3"><svg width="44" height="69" viewBox="0 0 44 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M42.2793 38.7739C41.8377 37.7348 41.3133 36.732 40.7113 35.7749V18.4383C40.7138 16.0155 40.2312 13.6161 39.2914 11.3785C38.3515 9.14093 36.973 7.10935 35.2353 5.4009C33.5079 3.68297 31.4528 2.32101 29.1891 1.39393C26.9254 0.466851 24.4982 -0.00691684 22.048 7.63022e-05C19.5963 -0.00572629 17.1678 0.468543 14.9025 1.39551C12.6372 2.32248 10.5801 3.6838 8.84975 5.4009C7.11285 7.10928 5.73574 9.14111 4.79806 11.3789C3.86037 13.6167 3.38072 16.0161 3.38683 18.4383V20.9652H10.8605V18.4383C10.8605 15.4975 12.0185 12.712 14.1426 10.6228C15.1786 9.5938 16.4107 8.77816 17.7677 8.22304C19.1246 7.66792 20.5795 7.38436 22.048 7.38875C25.0114 7.39387 27.8521 8.55939 29.9484 10.6302C32.0447 12.7011 33.2258 15.5086 33.2333 18.4383V28.535C29.8368 26.5333 25.9542 25.4811 22 25.4907C19.1095 25.485 16.2464 26.0445 13.5756 27.1372C10.9048 28.2299 8.47894 29.8341 6.43778 31.8574C4.39197 33.8758 2.77 36.2742 1.66516 38.9146C0.560331 41.555 -0.00556036 44.3853 4.11818e-05 47.2428C-0.00474313 50.0978 0.561579 52.9256 1.66642 55.5634C2.77127 58.2013 4.39282 60.5971 6.43778 62.613C8.47929 64.6367 10.9044 66.2424 13.5744 67.3384C16.2444 68.4344 19.1068 68.999 21.9977 69C24.8887 69.001 27.7515 68.4383 30.4222 67.3442C33.093 66.2501 35.5193 64.646 37.5622 62.6238C39.6079 60.6057 41.2298 58.2076 42.3346 55.5676C43.4394 52.9276 44.0054 50.0977 44 47.2406C44 44.3084 43.4221 41.456 42.2749 38.7718L42.2793 38.7739ZM22.0044 61.604C13.9964 61.604 7.47802 55.1596 7.47802 47.2428C7.47802 39.3259 13.9964 32.8815 22.0044 32.8815C25.8561 32.8844 29.5493 34.3983 32.2729 37.091C34.9964 39.7836 36.5278 43.4348 36.5307 47.2428C36.5255 51.05 34.9934 54.6999 32.2703 57.392C29.5472 60.0841 25.8554 61.5989 22.0044 61.604ZM28.2415 47.3096C28.2415 55.427 15.9156 55.427 15.9156 47.3096C15.9156 39.1792 28.2415 39.1792 28.2415 47.3096Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="col-9 text-left">
+                                        <h2 class="mb-0">Limited Access</h2>
+                                        <p class="mt-0">Get access to some tasks on the platform</p>
+                                    </div>
+                                </div>
+                                <div class="row my-5 card-body__info">
+                                    <div class="col-3"><svg width="69" height="69" viewBox="0 0 69 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M34.5 0L43.125 12.9375H38.8125V21.5625H30.1875V12.9375H25.875L34.5 0Z" />
+                                            <path
+                                                d="M64.6875 30.1875V64.6875H4.3125V30.1875H64.6875ZM69 25.875H0V69H69V25.875Z" />
+                                            <path
+                                                d="M34.5 34.5C36.199 34.5 37.8813 34.8346 39.451 35.4848C41.0206 36.135 42.4468 37.0879 43.6482 38.2893C44.8496 39.4907 45.8025 40.9169 46.4527 42.4865C47.1029 44.0562 47.4375 45.7385 47.4375 47.4375C47.4375 49.1365 47.1029 50.8188 46.4527 52.3885C45.8025 53.9581 44.8496 55.3843 43.6482 56.5857C42.4468 57.7871 41.0206 58.74 39.451 59.3902C37.8813 60.0404 36.199 60.375 34.5 60.375H56.0625V56.0625H60.375V38.8125H56.0625V34.5H34.5Z" />
+                                            <path
+                                                d="M21.5625 47.4375C21.5625 44.0063 22.9256 40.7156 25.3518 38.2893C27.7781 35.8631 31.0688 34.5 34.5 34.5H12.9375V38.8125H8.625V56.0625H12.9375V60.375H34.5C31.0688 60.375 27.7781 59.0119 25.3518 56.5857C22.9256 54.1594 21.5625 50.8687 21.5625 47.4375Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9 text-left">
+                                        <h2 class="mb-0">Quick Withdrawal</h2>
+                                        <p class="mt-0">Withdraw at specified time by advertiser
+                                    </div>
+                                </div>
+                                <div class="row my-5 card-body__info">
+                                    <div class="col-3"><svg width="68" height="69" viewBox="0 0 68 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M68 34.5L60.4582 25.3329L61.5091 13.2086L50.3509 10.5143L44.5091 0L34 4.79714L23.4909 0L17.6491 10.4814L6.49091 13.1429L7.54182 25.3L0 34.5L7.54182 43.6671L6.49091 55.8243L17.6491 58.5186L23.4909 69L34 64.17L44.5091 68.9671L50.3509 58.4857L61.5091 55.7914L60.4582 43.6671L68 34.5ZM28.0964 50.0086L16.3509 37.49L20.9255 32.6271L28.0964 40.2829L46.1782 20.9957L50.7527 25.8586L28.0964 50.0086Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9 text-left">
+                                        <h2 class="mb-0">Verified Account</h2>
+                                        <p class="mt-0">Account verification not applicable to you
+                                    </div>
+                                </div>
+                                <div class="row my-5 card-body__info">
+                                    <div class="col-3"><svg width="44" height="69" viewBox="0 0 44 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M22 0C17.5443 0.0100916 13.1962 1.37773 9.52863 3.92271C5.86103 6.4677 3.04602 10.0706 1.45453 14.2567C-0.136971 18.4428 -0.430281 23.0157 0.613245 27.3728C1.65677 31.7298 3.98817 35.6667 7.30024 38.6646V69L22 59.1429L36.6998 69V38.6646C40.0118 35.6667 42.3432 31.7298 43.3868 27.3728C44.4303 23.0157 44.137 18.4428 42.5455 14.2567C40.954 10.0706 38.139 6.4677 34.4714 3.92271C30.8038 1.37773 26.4557 0.0100916 22 0ZM31.7998 59.7836L24.7195 55.0521L22 53.2286L19.2805 55.0521L12.2002 59.7836V42.0161C15.2393 43.5584 18.5959 44.3619 22 44.3619C25.4041 44.3619 28.7607 43.5584 31.7998 42.0161V59.7836ZM33.9803 34.5C31.1469 37.2824 27.4436 38.9928 23.499 39.3409C19.5544 39.689 15.6115 38.6534 12.3397 36.4099C9.06794 34.1663 6.66881 30.8531 5.54959 27.0326C4.43037 23.2121 4.66003 19.1197 6.19958 15.4501C7.73913 11.7806 10.4937 8.75996 13.9957 6.90101C17.4978 5.04207 21.5314 4.45935 25.412 5.25177C29.2926 6.04419 32.7811 8.16292 35.2852 11.2483C37.7892 14.3337 39.1547 18.1957 39.1497 22.1786C39.1469 24.4751 38.6881 26.7479 37.8004 28.8637C36.9128 30.9795 35.614 32.8957 33.9803 34.5Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9 text-left pr-2">
+                                        <h2 class="mb-0">Free Recommendation</h2>
+                                        <p class="mt-0">No free recommendation to advertisers
+                                    </div>
+                                </div>
+                                <div class="row mt-5 card-body__info">
+                                    <div class="col-3 pt-3"><svg width="37" height="37" viewBox="0 0 37 37" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M18.5 0C8.28245 0 0 8.28307 0 18.5C0 28.7169 8.28307 37 18.5 37C28.7169 37 37 28.7169 37 18.5C37 8.28307 28.7169 0 18.5 0ZM14.1987 29.6L14.1864 29.5877L14.1759 29.6L5.55 20.72L9.88455 16.3022L14.187 20.7323L27.137 7.40062L31.45 11.8394L14.1987 29.6Z"
+                                                fill="#C4C4C4" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9">
+                                        <h3 class="pricing__fee pr-5">$0/Yr</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-header premium-acc-header">
+                                <h2 class="my-0 font-weight-normal">Premium Account</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="row mt-3 card-body__info">
+                                    <div class="col-3"><svg width="44" height="69" viewBox="0 0 44 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M42.2793 38.7739C41.8377 37.7348 41.3133 36.732 40.7113 35.7749V18.4383C40.7138 16.0155 40.2312 13.6161 39.2914 11.3785C38.3515 9.14093 36.973 7.10935 35.2353 5.4009C33.5079 3.68297 31.4528 2.32101 29.1891 1.39393C26.9254 0.466851 24.4982 -0.00691684 22.048 7.63022e-05C19.5963 -0.00572629 17.1678 0.468543 14.9025 1.39551C12.6372 2.32248 10.5801 3.6838 8.84975 5.4009C7.11285 7.10928 5.73574 9.14111 4.79806 11.3789C3.86037 13.6167 3.38072 16.0161 3.38683 18.4383V20.9652H10.8605V18.4383C10.8605 15.4975 12.0185 12.712 14.1426 10.6228C15.1786 9.5938 16.4107 8.77816 17.7677 8.22304C19.1246 7.66792 20.5795 7.38436 22.048 7.38875C25.0114 7.39387 27.8521 8.55939 29.9484 10.6302C32.0447 12.7011 33.2258 15.5086 33.2333 18.4383V28.535C29.8368 26.5333 25.9542 25.4811 22 25.4907C19.1095 25.485 16.2464 26.0445 13.5756 27.1372C10.9048 28.2299 8.47894 29.8341 6.43778 31.8574C4.39197 33.8758 2.77 36.2742 1.66516 38.9146C0.560331 41.555 -0.00556036 44.3853 4.11818e-05 47.2428C-0.00474313 50.0978 0.561579 52.9256 1.66642 55.5634C2.77127 58.2013 4.39282 60.5971 6.43778 62.613C8.47929 64.6367 10.9044 66.2424 13.5744 67.3384C16.2444 68.4344 19.1068 68.999 21.9977 69C24.8887 69.001 27.7515 68.4383 30.4222 67.3442C33.093 66.2501 35.5193 64.646 37.5622 62.6238C39.6079 60.6057 41.2298 58.2076 42.3346 55.5676C43.4394 52.9276 44.0054 50.0977 44 47.2406C44 44.3084 43.4221 41.456 42.2749 38.7718L42.2793 38.7739ZM22.0044 61.604C13.9964 61.604 7.47802 55.1596 7.47802 47.2428C7.47802 39.3259 13.9964 32.8815 22.0044 32.8815C25.8561 32.8844 29.5493 34.3983 32.2729 37.091C34.9964 39.7836 36.5278 43.4348 36.5307 47.2428C36.5255 51.05 34.9934 54.6999 32.2703 57.392C29.5472 60.0841 25.8554 61.5989 22.0044 61.604ZM28.2415 47.3096C28.2415 55.427 15.9156 55.427 15.9156 47.3096C15.9156 39.1792 28.2415 39.1792 28.2415 47.3096Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="col-9 text-left pr-1">
+                                        <h2 class="mb-0">Unlimited Access</h2>
+                                        <p class="mt-0">Get access to all tasks on the platform</p>
+                                    </div>
+                                </div>
+                                <div class="row my-5 card-body__info">
+                                    <div class="col-3"><svg width="69" height="69" viewBox="0 0 69 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M34.5 0L43.125 12.9375H38.8125V21.5625H30.1875V12.9375H25.875L34.5 0Z" />
+                                            <path
+                                                d="M64.6875 30.1875V64.6875H4.3125V30.1875H64.6875ZM69 25.875H0V69H69V25.875Z" />
+                                            <path
+                                                d="M34.5 34.5C36.199 34.5 37.8813 34.8346 39.451 35.4848C41.0206 36.135 42.4468 37.0879 43.6482 38.2893C44.8496 39.4907 45.8025 40.9169 46.4527 42.4865C47.1029 44.0562 47.4375 45.7385 47.4375 47.4375C47.4375 49.1365 47.1029 50.8188 46.4527 52.3885C45.8025 53.9581 44.8496 55.3843 43.6482 56.5857C42.4468 57.7871 41.0206 58.74 39.451 59.3902C37.8813 60.0404 36.199 60.375 34.5 60.375H56.0625V56.0625H60.375V38.8125H56.0625V34.5H34.5Z" />
+                                            <path
+                                                d="M21.5625 47.4375C21.5625 44.0063 22.9256 40.7156 25.3518 38.2893C27.7781 35.8631 31.0688 34.5 34.5 34.5H12.9375V38.8125H8.625V56.0625H12.9375V60.375H34.5C31.0688 60.375 27.7781 59.0119 25.3518 56.5857C22.9256 54.1594 21.5625 50.8687 21.5625 47.4375Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9 text-left">
+                                        <h2 class="mb-0">Quick Withdrawal</h2>
+                                        <p class="mt-0">Withdraw anytime you want
+                                    </div>
+                                </div>
+                                <div class="row my-5 card-body__info">
+                                    <div class="col-3"><svg width="68" height="69" viewBox="0 0 68 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M68 34.5L60.4582 25.3329L61.5091 13.2086L50.3509 10.5143L44.5091 0L34 4.79714L23.4909 0L17.6491 10.4814L6.49091 13.1429L7.54182 25.3L0 34.5L7.54182 43.6671L6.49091 55.8243L17.6491 58.5186L23.4909 69L34 64.17L44.5091 68.9671L50.3509 58.4857L61.5091 55.7914L60.4582 43.6671L68 34.5ZM28.0964 50.0086L16.3509 37.49L20.9255 32.6271L28.0964 40.2829L46.1782 20.9957L50.7527 25.8586L28.0964 50.0086Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9 text-left">
+                                        <h2 class="mb-0">Verified Account</h2>
+                                        <p class="mt-0">Automatic account verification
+                                    </div>
+                                </div>
+                                <div class="row my-5 card-body__info">
+                                    <div class="col-3"><svg width="44" height="69" viewBox="0 0 44 69" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M22 0C17.5443 0.0100916 13.1962 1.37773 9.52863 3.92271C5.86103 6.4677 3.04602 10.0706 1.45453 14.2567C-0.136971 18.4428 -0.430281 23.0157 0.613245 27.3728C1.65677 31.7298 3.98817 35.6667 7.30024 38.6646V69L22 59.1429L36.6998 69V38.6646C40.0118 35.6667 42.3432 31.7298 43.3868 27.3728C44.4303 23.0157 44.137 18.4428 42.5455 14.2567C40.954 10.0706 38.139 6.4677 34.4714 3.92271C30.8038 1.37773 26.4557 0.0100916 22 0ZM31.7998 59.7836L24.7195 55.0521L22 53.2286L19.2805 55.0521L12.2002 59.7836V42.0161C15.2393 43.5584 18.5959 44.3619 22 44.3619C25.4041 44.3619 28.7607 43.5584 31.7998 42.0161V59.7836ZM33.9803 34.5C31.1469 37.2824 27.4436 38.9928 23.499 39.3409C19.5544 39.689 15.6115 38.6534 12.3397 36.4099C9.06794 34.1663 6.66881 30.8531 5.54959 27.0326C4.43037 23.2121 4.66003 19.1197 6.19958 15.4501C7.73913 11.7806 10.4937 8.75996 13.9957 6.90101C17.4978 5.04207 21.5314 4.45935 25.412 5.25177C29.2926 6.04419 32.7811 8.16292 35.2852 11.2483C37.7892 14.3337 39.1547 18.1957 39.1497 22.1786C39.1469 24.4751 38.6881 26.7479 37.8004 28.8637C36.9128 30.9795 35.614 32.8957 33.9803 34.5Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9 text-left pr-2">
+                                        <h2 class="mb-0">Free Recommendation</h2>
+                                        <p class="mt-0">No free recommendation to advertisers
+                                    </div>
+                                </div>
+                                <div class="row mt-5 card-body__info">
+                                    <div class="col-3 pt-3"><svg class="premium-acc__check" width="37" height="37"
+                                            viewBox="0 0 37 37" fill="#219653;" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M18.5 0C8.28245 0 0 8.28307 0 18.5C0 28.7169 8.28307 37 18.5 37C28.7169 37 37 28.7169 37 18.5C37 8.28307 28.7169 0 18.5 0ZM14.1987 29.6L14.1864 29.5877L14.1759 29.6L5.55 20.72L9.88455 16.3022L14.187 20.7323L27.137 7.40062L31.45 11.8394L14.1987 29.6Z"
+                                                fill="#219653" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-9">
+                                        <h3 class="pricing__fee pr-5">$80/Yr</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--pricing plan end-->
+                <!--payment options start-->
+                <div class="payment-option py-3 my-5">
+                    <h2 class="pl-3">Select Payment Options</h2>
+                    <div class="row px-1 my-4">
+                        <div class="col">
+                            <img class="img-fluid" src="/uaimg/paypal.png" alt="paypal payment image">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="/uaimg/paypal.png" alt="paypal payment image">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="/uaimg/paypal.png" alt="paypal payment image">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="/uaimg/paypal.png" alt="paypal payment image">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="/uaimg/paypal.png" alt="paypal payment image">
+                        </div>
+                    </div>
+                </div>
+                <!--payment options end-->
+                <!--payment form start-->
+                <form class="form-container px-3 pt-5 pb-4">
+                    <div class="form-row">
+                        <div class="form-group col-12">
+                            <label for="inputName"><span class="text-danger">*</span> Card Name:</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Enter Card Name">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="inputEmail4"><span class="text-danger">*</span> Email Address</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email Address">
+                        </div>
+                        <div class="form-group col-7">
+                            <label for="inputName"><span class="text-danger">*</span> Bank Name:</label>
+                            <input type="text" class="form-control" id="inputBankName" placeholder="Enter Bank Name">
+                        </div>
+                        <div class="form-group col-5">
+                            <label for="inputState"><span class="text-danger">*</span> Account Type</label>
+                            <select id="inputState" class="form-control selectpicker" title="Select Account Type">
+                                <option>Savings</option>
+                                <option>Current</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12 col-md-5">
+                            <label for="inputNumber"><span class="text-danger">*</span> Card Number:</label>
+                            <input type="number" class="form-control" id="inputNumber" placeholder="Enter Card Number">
+                        </div>
+                        <div class="form-group  col-6 col-md">
+                            <label for="inputdate"><span class="text-danger">*</span> Expiration</label>
+                            <input type="month" class="form-control" id="inputdate" placeholder="mm/yy">
+                        </div>
+                        <div class="form-group  col-6 col-md">
+                            <label for="inputCVV"><span class="text-danger">*</span> CVV Number &nbsp; &#9072;</label>
+                            <input type="password" class="form-control" id="inputCVV" placeholder="***">
+                        </div>
+                    </div>
+                </form>
+                <button type="submit" class="btn btn-primary btn-block pay-btn my-4">Make Payment</button>
+
+                <!--payment form end-->
+            </div>
+            <!--pricing information (right column) end-->
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!--bootstrap-select jQuery plugin js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+</body>
+
+</html>
