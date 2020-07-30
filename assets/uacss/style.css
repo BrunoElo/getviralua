@@ -1,3 +1,5 @@
+/*style sheet for the contents in the upgrade account page*/
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 
@@ -132,7 +134,7 @@ body {
     width: 364px;
 }
 
-.form__search-input::placeholder {
+.mobile-search__input::placeholder {
 font-style: italic;
 font-size: 13px;
 color: #E0E0E0;

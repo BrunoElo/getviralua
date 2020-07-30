@@ -1,3 +1,6 @@
+/*style sheet for the navbar and side bar in the upgrade account page*/
+
+
 :root {
   --sideBar-primary-color: #b9b9b9;
   --sideBar-secondary-color: #e5e5e5;
@@ -22,7 +25,7 @@ body {
 
 /*Small screens*/
 .navbar-light .navbar-toggler-icon {
-  background-image: url("../images/hamburger\ menu.svg");
+  background-image: url("../uaimg/hamburger\ menu.svg");
 }
 
 .navbar-light .navbar-toggler {
