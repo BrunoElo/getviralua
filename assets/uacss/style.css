@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #F0F7FF;
+    background-color: #f5f6fa;
 }
 
 
@@ -99,7 +99,7 @@ body {
     font-size: 20px;
 }
 
-.form-group {
+.form-group, .tooltip {
     text-align: left;
     font-weight: 600;
 }
