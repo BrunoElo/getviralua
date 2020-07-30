@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 
-html {
-   /* font-size: .75rem;*/
-}
+/*html {
+    font-size: .75rem;
+}*/
 
 
 body {
@@ -16,11 +16,14 @@ body {
     background-color: #362F74;
 }
 
-.pricing {
-  
+.pricing {  
     text-align: center;
     padding-left: 5.556vw;
     padding-right: 5.556vw;
+    /*resolves responsiveness issue after navbar integrations*/
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .pricing-heading {
@@ -114,6 +117,12 @@ body {
     background-color: #362F74;
     border-radius: 5px;
     height: 68px;
+}
+
+.pay-btn:hover, .pay-btn:active, .pay-btn:not(:disabled):not(.disabled):active, .pay-btn:focus {
+    color: #fff;
+    background-color: #362F74;
+    border-color: #362F74;
 }
 
 .form__search-input {
