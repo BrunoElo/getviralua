@@ -154,6 +154,14 @@ font-weight: normal;
     border-top-color: #362F74;
 }
 
+a:hover {
+     color: #0056b3; 
+     text-decoration: none; 
+     font-weight: 600;
+    border-bottom: 3px solid var(--sideBar-active);
+}
+
+
 @media (min-width: 576px) {
     tml {
         font-size: 1rem;
